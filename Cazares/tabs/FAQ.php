@@ -18,39 +18,39 @@
 
 </head>
 
-    <nav style="padding: 20px;" id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button style="color: silver;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button style="color: silver; background-color: black;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-road"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="../index.php"><img style="position:absolute; top: 5px; left: 15px; width: 200px; height: auto;" src="../cazares white outline.png"></a>
+                <a class="navbar-brand page-scroll" href="../index.php"><img id="logo_nav" src="../casaresclear.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item">
-                        <a style="color: tomato;" class="page-scroll" href="views/about.php">Courses</a>
+                        <a style="color: black;" class="page-scroll" href="views/about.php">Courses</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="locations.php">Locations</a>
+                        <a style="color: black;" class="page-scroll" href="locations.php">Locations</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="gallery.php">Gallery</a>
+                        <a style="color: black;" class="page-scroll" href="gallery.php">Gallery</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="resources.php">Resources</a>
+                        <a style="color: black;" class="page-scroll" href="resources.php">Resources</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="" onclick="return false;">FAQ</a>
+                        <a style="color: black;" class="page-scroll" href="" onclick="return false;">FAQ</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="student_login.php">Student Login</a>
+                        <a style="color: black;" class="page-scroll" href="https://www.myeform3.net/cazares/student/studentlogin.aspx">Student Login</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="contact.php">Contact</a>
+                        <a style="color: black;" class="page-scroll" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -61,7 +61,39 @@
 
 <br><br><br><br><br><br><br><br>
 <body id="main_body">
-	
+	<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Where can we download our 30 hour driving guide? </a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body"><a href="#">Click here to download the 30 hour behind the wheel driving guide.</a></div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Where can we download 30 hour driving log?</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body"><a href="#">Click here to download the 30 hour driving log.</a></div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">How old do I have to be to start Driver's Education?</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">You can start the classroom phase at 14 and return when you are 15 to sign up for the behind the wheel program. If you are 15 years of age, you can start the full program, which includes classroom and behind-the-wheel concurrently. Keep in mind that you must be 15 to get your learner’s permit.​</div>
+    </div>
+  </div>
+</div>
 </body>
 
 <footer style="background-color: black;" class="text-center footer-col">
@@ -80,7 +112,7 @@
 	<a style="color: silver;" href="https://www.facebook.com/pages/Cazares-Driving-School/118500358255059">Visit Us on Facebook</a>
 	<span style="font-size:25px; color: #3b5998" class="fa fa-facebook-official"></span>
 	</div>
-	<p style="color: tomato"> &copy; cazaresdriving 2017</p>
+	<p style="color: tomato;"> &copy; cazaresdriving 2017</p>
 	<p style="color: silver">lic# c1594 (a)(b)(c)(d)</p>
 	</span>
 	</p>

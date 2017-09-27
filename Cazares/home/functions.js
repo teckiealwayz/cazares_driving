@@ -9,3 +9,17 @@ function showPage() {
   document.getElementById("myDiv").style.display = "block";
   document.getElementById("pic").style.display = "none";
 }
+
+$(function() {
+	$("#language").click(function(e) {
+		if ($(this).text() == "Español")
+		{
+			$(this).text("English");
+		}
+		else
+		{
+			$(this).text("Español");
+		}
+	});
+	});
+

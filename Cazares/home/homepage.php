@@ -30,39 +30,39 @@
 
 <div style="display:none;" id="myDiv" class="animate-bottom">
 
-    <nav style="padding: 20px;" id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button style="color: silver;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button style="color: silver; background-color: black;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-road"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="" onclick="return false;"><img style="position:absolute; top: 5px; left: 15px; width: 200px; height: auto;" src="cazares white outline.png"></a>
+                <a class="navbar-brand page-scroll" href="" onclick="return false;"><img id="logo_nav" src="casaresclear.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item">
-                        <a style="color: tomato;" class="page-scroll" href="views/about.php">Courses</a>
+                        <a style="color: black;" class="page-scroll" href="views/about.php">Courses</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="tabs/locations.php">Locations</a>
+                        <a style="color: black;" class="page-scroll" href="tabs/locations.php">Locations</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="tabs/gallery.php">Gallery</a>
+                        <a style="color: black;" class="page-scroll" href="tabs/gallery.php">Gallery</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="tabs/resources.php">Resources</a>
+                        <a style="color: black;" class="page-scroll" href="tabs/resources.php">Resources</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="tabs/FAQ.php">FAQ</a>
+                        <a style="color: black;" class="page-scroll" href="tabs/FAQ.php">FAQ</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="tabs/student_login.php">Student Login</a>
+                        <a style="color: black;" class="page-scroll" href="https://www.myeform3.net/cazares/student/studentlogin.aspx">Student Login</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="tabs/contact.php">Contact</a>
+                        <a style="color: black;" class="page-scroll" href="tabs/contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -74,11 +74,12 @@
 
 <br><br><br><br>
 <div class="panel panel-default">
-<h1 class="text-center"><strong style="color: tomato; text-shadow: 2px 1px black;">Take your Driving Test with us!</strong></h1>
+<h1 class="text-center main-title"><strong style="color: tomato; text-shadow: 2px 1px black;">Take your Driving Test with us!</strong></h1>
 <p class="text-center"><strong style="padding: 60px;">Cazares Driving School is authorized by the Texas Department of Public Safety to administer the official Road Skills Test "Driving Test" for ALL teens and adults from all driving schools. Driving Tests are scheduled daily! Walk-ins are welcome for testing Mon - Thurs 8 - 11am and 3 - 5pm at Cazares McAllen Location.<br> Call <a href="tel:9566831444">956-683-1444</a> for more information.</strong></p>
 </div>
 <div class="text-center row">
-	<button class="btn btn-primary text-center">Sign Up Now</button>
+	<button id="sign_up" class="btn btn-primary text-center">Sign Up Now</button>
+	<button id="language" class="btn btn-primary text-center">Español</button>
 </div>
 <br><br><br><br>
 

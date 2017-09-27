@@ -67,3 +67,16 @@
 #myDiv {
   display: none;
 }
+
+#mainNav {
+  padding: 20px;
+  background-color: orange;
+}
+
+#logo_nav {
+  position:absolute;
+  top: 5px;
+  left: 15px;
+  width: 225px;
+  height: auto;
+}

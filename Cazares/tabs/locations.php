@@ -18,39 +18,39 @@
 
 </head>
 
-    <nav style="padding: 20px;" id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button style="color: silver;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button style="color: silver; background-color: black;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-road"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="../index.php"><img style="position:absolute; top: 5px; left: 15px; width: 200px; height: auto;" src="../cazares white outline.png"></a>
+                <a class="navbar-brand page-scroll" href="../index.php"><img id="logo_nav" src="../casaresclear.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item">
-                        <a style="color: tomato;" class="page-scroll" href="views/about.php">Courses</a>
+                        <a style="color: black;" class="page-scroll" href="views/about.php">Courses</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="" onclick="return false;">Locations</a>
+                        <a style="color: black;" class="page-scroll" href="" onclick="return false;">Locations</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="gallery.php">Gallery</a>
+                        <a style="color: black;" class="page-scroll" href="gallery.php">Gallery</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="resources.php">Resources</a>
+                        <a style="color: black;" class="page-scroll" href="resources.php">Resources</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="FAQ.php">FAQ</a>
+                        <a style="color: black;" class="page-scroll" href="FAQ.php">FAQ</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="student_login.php">Student Login</a>
+                        <a style="color: black;" class="page-scroll" href="https://www.myeform3.net/cazares/student/studentlogin.aspx">Student Login</a>
                     </li>
                     <li>
-                        <a style="color: tomato;" class="page-scroll" href="contact.php">Contact</a>
+                        <a style="color: black;" class="page-scroll" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -80,7 +80,7 @@
 	<a style="color: silver;" href="https://www.facebook.com/pages/Cazares-Driving-School/118500358255059">Visit Us on Facebook</a>
 	<span style="font-size:25px; color: #3b5998" class="fa fa-facebook-official"></span>
 	</div>
-	<p style="color: tomato"> &copy; cazaresdriving 2017</p>
+	<p style="color: tomato;"> &copy; cazaresdriving 2017</p>
 	<p style="color: silver">lic# c1594 (a)(b)(c)(d)</p>
 	</span>
 	</p>
