@@ -31,8 +31,19 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item">
-                        <a style="color: black;" class="page-scroll" href="views/about.php">Courses</a>
+                    <li class="nav-item dropdown">
+                        <a style="color: black;" class="dropdown-toggle" data-toggle="dropdown" href="#">Courses<span class="caret"></span></a>
+                        <div class="dropdown-menu">
+                            <a style="color: black;" class="dropdown-item" href="../info/teen_driving.php">Teen Driver Education</a>
+                            <div class="dropdown-divider"></div>
+                            <a style="color: black;" class="dropdown-item" href="../info/adult_driving.php">Adult Driver Education</a>
+                            <div class="dropdown-divider"></div>
+                            <a style="color: black;" class="dropdown-item" href="../info/defensive_driving.php">Defensive Driving</a>
+                            <div class="dropdown-divider"></div>
+                            <a style="color: black;" class="dropdown-item" href="#">Road Testing</a>
+                            <div class="dropdown-divider"></div>
+                            <a style="color: black;" class="dropdown-item" href="../info/cpr_courses.php">CPR Courses</a>
+                        </div>
                     </li>
                     <li>
                         <a style="color: black;" class="page-scroll" href="" onclick="return false;">Locations</a>
@@ -47,7 +58,7 @@
                         <a style="color: black;" class="page-scroll" href="FAQ.php">FAQ</a>
                     </li>
                     <li>
-                        <a style="color: black;" class="page-scroll" href="https://www.myeform3.net/cazares/student/studentlogin.aspx">Student Login</a>
+                        <a style="color: black;" class="page-scroll" href="https://www.myeform3.net/cazares/student/studentlogin.aspx" target="_blank">Student Login</a>
                     </li>
                     <li>
                         <a style="color: black;" class="page-scroll" href="contact.php">Contact</a>
@@ -61,7 +72,34 @@
 
 <br><br><br><br><br><br><br><br>
 <body id="main_body">
-	
+    <div class="row">
+	<div class="panel panel-default col-xs-4">
+<address class="text-center">
+  <strong>McAllen, TX 78501</strong><br>
+  1700 N 10th St # I<br>
+</address>
+    </div>
+    <div class="panel panel-default col-xs-4">
+        <address class="text-center">
+            <strong>McAllen, TX 78504</strong><br>
+            2228 Trenton Rd., Ste 250 McAllen, TX 78504 C<br>
+            McAllen, TX 78504<br>
+            Phone: (956) 351-5980
+        </address>
+    </div>
+    <div class="panel panel-default col-xs-4">
+        <p class="text-center">Mission/Shary, TX 78572</p>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="panel panel-default col-xs-4">
+            <p class="text-center">Palmview, TX 78572</p>
+        </div>
+        <div class="panel panel-default col-xs-4">
+            <p class="text-center">Weslaco, TX 78596</p>
+        </div>
+    </div>
 </body>
 
 <footer style="background-color: black;" class="text-center footer-col">

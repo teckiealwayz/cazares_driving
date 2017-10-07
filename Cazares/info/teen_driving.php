@@ -31,8 +31,19 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item">
-                        <a style="color: black;" class="page-scroll" href="views/about.php">Courses</a>
+                    <li class="nav-item dropdown">
+                        <a style="color: black;" class="dropdown-toggle" data-toggle="dropdown" href="#">Courses<span class="caret"></span></a>
+                        <div class="dropdown-menu">
+                            <a style="color: black;" class="dropdown-item" href="info/teen_driving.php">Teen Driver Education</a>
+                            <div class="dropdown-divider"></div>
+                            <a style="color: black;" class="dropdown-item" href="info/adult_driving.php">Adult Driver Education</a>
+                            <div class="dropdown-divider"></div>
+                            <a style="color: black;" class="dropdown-item" href="info/defensive_driving.php">Defensive Driving</a>
+                            <div class="dropdown-divider"></div>
+                            <a style="color: black;" class="dropdown-item" href="#">Road Testing</a>
+                            <div class="dropdown-divider"></div>
+                            <a style="color: black;" class="dropdown-item" href="info/cpr_courses.php">CPR Courses</a>
+                        </div>
                     </li>
                     <li>
                         <a style="color: black;" class="page-scroll" href="../tabs/locations.php">Locations</a>
@@ -47,7 +58,7 @@
                         <a style="color: black;" class="page-scroll" href="../tabs/FAQ.php">FAQ</a>
                     </li>
                     <li>
-                        <a style="color: black;" class="page-scroll" href="https://www.myeform3.net/cazares/student/studentlogin.aspx">Student Login</a>
+                        <a style="color: black;" class="page-scroll" href="https://www.myeform3.net/cazares/student/studentlogin.aspx" target="_blank">Student Login</a>
                     </li>
                     <li>
                         <a style="color: black;" class="page-scroll" href="../tabs/contact.php">Contact</a>
@@ -66,6 +77,8 @@
 <div class="col-sm-4 col-sm-offset-4">
   <div class="panel panel-default">
     <h2 class="text-center">Fast Track Teen Driver Education Course ($325.00)<br><span style="color: red;">FALL SPECIAL ($300)</span></h2>
+    <img class="img-responsive center-block" style="width: 450px; height: auto;" src="../TEEN_DRIVER_PIC.jpg">
+
 <p style="padding: 10px;">Courses for ages 14-17 are held Monday - Saturday (16 days of classroom training /2 hours per day). Depending on space availability, students may enroll up until the third day of class but must be present on the third day.</p>
 
 <strong style="padding: 5px;">Course includes:</strong>

@@ -79,4 +79,15 @@
   left: 15px;
   width: 225px;
   height: auto;
+  size: 100%;
+}
+
+#hello {
+  background-color: black;
+}
+
+@media (max-width: 500px) {
+  .navbar-brand {
+    height: 80px;
+  }
 }

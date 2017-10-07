@@ -43,8 +43,20 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item">
-                        <a style="color: black;" class="page-scroll" href="views/about.php">Courses</a>
+                	<!-- drop down for courses -->
+                    <li class="nav-item dropdown">
+                        <a style="color: black;" class="dropdown-toggle" data-toggle="dropdown" href="#">Courses<span class="caret"></span></a>
+                        <div class="dropdown-menu">
+                        	<a style="color: black;" class="dropdown-item" href="info/teen_driving.php">Teen Driver Education</a>
+                        	<div class="dropdown-divider"></div>
+                        	<a style="color: black;" class="dropdown-item" href="info/adult_driving.php">Adult Driver Education</a>
+                        	<div class="dropdown-divider"></div>
+                        	<a style="color: black;" class="dropdown-item" href="info/defensive_driving.php">Defensive Driving</a>
+                        	<div class="dropdown-divider"></div>
+                        	<a style="color: black;" class="dropdown-item" href="#">Road Testing</a>
+                        	<div class="dropdown-divider"></div>
+                        	<a style="color: black;" class="dropdown-item" href="info/cpr_courses.php">CPR Courses</a>
+                        </div>
                     </li>
                     <li>
                         <a style="color: black;" class="page-scroll" href="tabs/locations.php">Locations</a>
@@ -59,7 +71,7 @@
                         <a style="color: black;" class="page-scroll" href="tabs/FAQ.php">FAQ</a>
                     </li>
                     <li>
-                        <a style="color: black;" class="page-scroll" href="https://www.myeform3.net/cazares/student/studentlogin.aspx">Student Login</a>
+                        <a style="color: black;" class="page-scroll" href="https://www.myeform3.net/cazares/student/studentlogin.aspx" target="_blank">Student Login</a>
                     </li>
                     <li>
                         <a style="color: black;" class="page-scroll" href="tabs/contact.php">Contact</a>
@@ -74,8 +86,8 @@
 
 <br><br><br><br>
 <div class="panel panel-default">
-<h1 class="text-center main-title"><strong style="color: tomato; text-shadow: 2px 1px black;">Take your Driving Test with us!</strong></h1>
-<p class="text-center"><strong style="padding: 60px;">Cazares Driving School is authorized by the Texas Department of Public Safety to administer the official Road Skills Test "Driving Test" for ALL teens and adults from all driving schools. Driving Tests are scheduled daily! Walk-ins are welcome for testing Mon - Thurs 8 - 11am and 3 - 5pm at Cazares McAllen Location.<br> Call <a href="tel:9566831444">956-683-1444</a> for more information.</strong></p>
+<h1 class="text-center main-title"><strong id="main_h" style="color: tomato; text-shadow: 2px 1px black;">Take your Driving Test with us!</strong></h1>
+<p class="text-center"><strong style="padding: 80px;">Cazares Driving School is authorized by the Texas Department of Public Safety to administer the Official Road Skills Test "Driving Test" for ALL teens and adults from all driving schools. Driving Tests are scheduled daily! Walk-ins are welcome for testing Mon - Thurs 8 - 11am and 3 - 5pm at Cazares McAllen Location.<br> Call <a href="tel:9566831444">956-683-1444</a> for more information.</strong></p>
 </div>
 <div class="text-center row">
 	<button id="sign_up" class="btn btn-primary text-center">Sign Up Now</button>
@@ -84,7 +96,9 @@
 <br><br><br><br>
 
 <div class="row panel panel-default">
-	<strong style="font-size: 24px;" class="col-xs-6 text-center"><a href="info/teen_driving.php" type="button" class="btn btn-info btn-sm">info</a> Fast Track Teen Drivers Ed</strong>
+	<strong style="font-size: 24px;" class="col-xs-6 text-center"><a href="info/teen_driving.php" type="button" class="btn btn-info btn-sm">info</a> Fast Track Teen Drivers Ed
+		<img class="img-responsive center-block" style="width: 100px; height: auto;" src="TEEN_DRIVER_PIC.jpg">
+	</strong>
 	<strong style="font-size: 24px;" class="col-xs-6 text-center"><a href="info/adult_driving.php" type="button" class="btn btn-info btn-sm">info</a> Adult 6-Hour Course</strong>
 		<p class="col-xs-6 text-center">Courses for ages 15-17 are held Monday - Saturday(16 days of classroom training /2 hours per day). Depending on space availability,students...
 		<br><a style="background-color: tomato;" href="https://www.myeform3.net/cazares/student/studentwebsignupTeen.aspx?Param=FTP" type="button" class="btn btn-danger" target="_blank">Register Today</a>

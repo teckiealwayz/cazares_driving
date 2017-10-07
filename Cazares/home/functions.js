@@ -15,10 +15,12 @@ $(function() {
 		if ($(this).text() == "Español")
 		{
 			$(this).text("English");
+			document.getElementById("main_h").innerHTML = "¡Toma el Examen de Conducción con nosotros!";
 		}
 		else
 		{
 			$(this).text("Español");
+			document.getElementById("main_h").innerHTML = "Take your Driving Test with us!";
 		}
 	});
 	});
