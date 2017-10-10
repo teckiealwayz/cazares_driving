@@ -18,7 +18,7 @@
 
 </head>
 
-    <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -49,9 +49,6 @@
                         <a style="color: black;" class="page-scroll" href="../tabs/locations.php">Locations</a>
                     </li>
                     <li>
-                        <a style="color: black;" class="page-scroll" href="../tabs/gallery.php">Gallery</a>
-                    </li>
-                    <li>
                         <a style="color: black;" class="page-scroll" href="../tabs/resources.php">Resources</a>
                     </li>
                     <li>
@@ -74,9 +71,10 @@
 <body id="main_body">
 
 <div class="row">
-<div class="col-sm-4 col-sm-offset-4">
+<div class="col-sm-6 col-sm-offset-3">
   <div class="panel panel-default">
     <h2 class="text-center">Adult 6-Hour Driver Education Course($100)<br></h2>
+    <img class="img-responsive center-block lg_pic"  src="../ADULT_6_HR_PIC.jpg">
 <p style="padding: 10px;">If you are 18 to 24 years old it is now required that you take a 6-hour Adult Driver Education Course. This course will include the Road Rules and Road Signs written tests at our facility. You will not be required to take the written test at the DPS Office. </p>
 
 <p style="padding: 10px;">
@@ -94,7 +92,7 @@ In addition to the Adult Driver Education Certificate of Completion, you will ne
 </p>
 <p style="padding: 5px;" class="text-left"><span class="glyphicon glyphicon-ok">&nbsp;</span>A third form of ID, such as a Texas ID, Passport, Military ID or Valid Immigration Document.
 </p>
-<p style="padding: 5px;" class="text-left"><span class="glyphicon glyphicon-ok">&nbsp;</span>DPS-Application (DL-40) & Supplement (DL-14A)
+<p style="padding: 5px;" class="text-left"><span class="glyphicon glyphicon-ok">&nbsp;</span>DPS-Application (DL-40) &amp; Supplement (DL-14A)
 </p>
 <p style="padding: 5px;" class="text-left"><span class="glyphicon glyphicon-ok">&nbsp;</span>2 Utility Bills (for example, water, cable, light) showing residence address (must be between 30-90 days old)
 </p>
@@ -110,25 +108,23 @@ In addition to the Adult Driver Education Certificate of Completion, you will ne
 
 <br><br>
 
-<footer style="background-color: black;" class="text-center footer-col">
-	
-	<div class="row">
-	<p style="color: silver;" class="col-xs-6 text-center">Contact Us
-	<br>
-	Phone: <a href="tel:9566831444">(956)683-1444</a><br>
-	Email: <a href="mailto:cazaresdriving@sbcglobal.net">cazaresdriving@sbcglobal.net</a>
-	</p>
-	<p style="color: silver;" class="col-xs-6 text-center">Quick Links
-	<br>
-	<a style="color: silver;" href="https://www.myeform3.net/cazares/Admin/Login.aspx">Staff Login</a>
-	<br>
-	<span>
-	<a style="color: silver;" href="https://www.facebook.com/pages/Cazares-Driving-School/118500358255059">Visit Us on Facebook</a>
-	<span style="font-size:25px; color: #3b5998" class="fa fa-facebook-official"></span>
-	</div>
-	<p style="color: black"> &copy; cazaresdriving 2017</p>
-	<p style="color: silver">lic# c1594 (a)(b)(c)(d)</p>
-	</span>
-	</p>
-	</div>
+<footer style="background-color: black;" class="text-center footer-col row">
+    
+    <p style="color: silver;" class="col-xs-6 text-center">Contact Us
+    <br>
+    Phone: <a href="tel:9566831444">(956)683-1444</a><br>
+    Email: <a href="mailto:cazaresdriving@sbcglobal.net">cazaresdriving@sbcglobal.net</a>
+    </p>
+    <p style="color: silver;" class="col-xs-6 text-center">Quick Links
+    <br>
+    <a style="color: silver;" href="https://www.myeform3.net/cazares/Admin/Login.aspx">Staff Login</a>
+    <br>
+    <span>
+    <a style="color: silver;" href="https://www.facebook.com/pages/Cazares-Driving-School/118500358255059">Visit Us on Facebook</a>
+    <span style="font-size:25px; color: #3b5998;" class="fa fa-facebook-official"></span>
+
+    <p class="text-center" style="color: tomato"> &copy; cazaresdriving 2017</p>
+    <p class="text-center" style="color: silver">lic# c1594 (a)(b)(c)(d)</p>
+    </span>
+    </p>
 </footer>

@@ -18,7 +18,7 @@
 
 </head>
 
-    <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -49,9 +49,6 @@
                         <a style="color: black;" class="page-scroll" href="locations.php">Locations</a>
                     </li>
                     <li>
-                        <a style="color: black;" class="page-scroll" href="gallery.php">Gallery</a>
-                    </li>
-                    <li>
                         <a style="color: black;" class="page-scroll" href="" onclick="return false;">Resources</a>
                     </li>
                     <li>
@@ -71,29 +68,65 @@
     </nav>
 
 <br><br><br><br><br><br><br><br>
-<body id="main_body">
+<body id="main_body" class="text-center">
+    <div class="row">
+<div class="col-md-4 col-md-offset-4">
+    <div class="panel panel-default">
+        <div class="panel-body"><a href="https://impacttexasdrivers.dps.texas.gov/ITYD/" target="_blank">ITYD VIDEO</a></div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body"><a href="https://impacttexasdrivers.dps.texas.gov/ITTD/" target="_blank">ITTD VIDEO</a></div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <a href="https://www.dps.texas.gov/administration/driver_licensing_control/rolodex/getinlineonline.htm" target="_blank">Get in Line, Online...</a></div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body"><a href="https://www.tdlr.texas.gov/driver/forms/voe.pdf" target="_blank">Verification of Enrollment Form</a></div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body"><a href="https://www.tdlr.texas.gov/driver/files/Texas%2030-Hour%20Behind-the-Wheel%20Guide.pdf" target="_blank">30 Hour Driving Guide</a></div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body"><a href="https://www.tdlr.texas.gov/driver/files/Texas%2030-Hour%20Behind-the-Wheel%20Log.pdf" target="_blank">30 Hour Log Sheet</a></div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body"><a href="http://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" target="_blank">DMV Hand Book (English)</a></div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body"><a href="http://www.dps.texas.gov/internetforms/Forms/DL-7S.pdf" target="_blank">Manual Para Conductores de Texas</a></div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body"><a href="http://www.dps.texas.gov/internetforms/Forms/DL-5.pdf" target="_blank">Texas Residency Affidavit (DL-5)</a></div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body"><a href="http://www.dps.texas.gov/internetforms/Forms/DL-14A.pdf" target="_blank">Driver's License Application (DL-14A)</a></div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body"><a href="http://www.dps.texas.gov/administration/driver_licensing_control/rolodex/search.asp target="_blank"">DPS Locations</a></div>
+    </div>
+</div>
+</div>
 	
 </body>
 
-<footer style="background-color: black;" class="text-center footer-col">
-	
-	<div class="row">
-	<p style="color: silver;" class="col-xs-6 text-center">Contact Us
-	<br>
-	Phone: <a href="tel:9566831444">(956)683-1444</a><br>
-	Email: <a href="mailto:cazaresdriving@sbcglobal.net">cazaresdriving@sbcglobal.net</a>
-	</p>
-	<p style="color: silver;" class="col-xs-6 text-center">Quick Links
-	<br>
-	<a style="color: silver;" href="https://www.myeform3.net/cazares/Admin/Login.aspx">Staff Login</a>
-	<br>
-	<span>
-	<a style="color: silver;" href="https://www.facebook.com/pages/Cazares-Driving-School/118500358255059">Visit Us on Facebook</a>
-	<span style="font-size:25px; color: #3b5998" class="fa fa-facebook-official"></span>
-	</div>
-	<p style="color: tomato;"> &copy; cazaresdriving 2017</p>
-	<p style="color: silver">lic# c1594 (a)(b)(c)(d)</p>
-	</span>
-	</p>
-	</div>
+<footer style="background-color: black;" class="text-center footer-col row">
+    
+    <p style="color: silver;" class="col-xs-6 text-center">Contact Us
+    <br>
+    Phone: <a href="tel:9566831444">(956)683-1444</a><br>
+    Email: <a href="mailto:cazaresdriving@sbcglobal.net">cazaresdriving@sbcglobal.net</a>
+    </p>
+    <p style="color: silver;" class="col-xs-6 text-center">Quick Links
+    <br>
+    <a style="color: silver;" href="https://www.myeform3.net/cazares/Admin/Login.aspx">Staff Login</a>
+    <br>
+    <span>
+    <a style="color: silver;" href="https://www.facebook.com/pages/Cazares-Driving-School/118500358255059">Visit Us on Facebook</a>
+    <span style="font-size:25px; color: #3b5998;" class="fa fa-facebook-official"></span>
+
+    <p class="text-center" style="color: tomato"> &copy; cazaresdriving 2017</p>
+    <p class="text-center" style="color: silver">lic# c1594 (a)(b)(c)(d)</p>
+    </span>
+    </p>
 </footer>

@@ -18,7 +18,7 @@
 
 </head>
 
-    <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -49,9 +49,6 @@
                         <a style="color: black;" class="page-scroll" href="" onclick="return false;">Locations</a>
                     </li>
                     <li>
-                        <a style="color: black;" class="page-scroll" href="gallery.php">Gallery</a>
-                    </li>
-                    <li>
                         <a style="color: black;" class="page-scroll" href="resources.php">Resources</a>
                     </li>
                     <li>
@@ -72,14 +69,14 @@
 
 <br><br><br><br><br><br><br><br>
 <body id="main_body">
-    <div class="row">
-	<div class="panel panel-default col-xs-4">
+    <div class="container-fluid">
+	<div class="panel panel-default col-sm-4">
 <address class="text-center">
   <strong>McAllen, TX 78501</strong><br>
   1700 N 10th St # I<br>
 </address>
     </div>
-    <div class="panel panel-default col-xs-4">
+    <div class="panel panel-default col-sm-4">
         <address class="text-center">
             <strong>McAllen, TX 78504</strong><br>
             2228 Trenton Rd., Ste 250 McAllen, TX 78504 C<br>
@@ -87,40 +84,38 @@
             Phone: (956) 351-5980
         </address>
     </div>
-    <div class="panel panel-default col-xs-4">
+    <div class="panel panel-default col-sm-4">
         <p class="text-center">Mission/Shary, TX 78572</p>
     </div>
     </div>
 
-    <div class="row">
-        <div class="panel panel-default col-xs-4">
+    <div class="container-fluid">
+        <div class="panel panel-default col-sm-4">
             <p class="text-center">Palmview, TX 78572</p>
         </div>
-        <div class="panel panel-default col-xs-4">
+        <div class="panel panel-default col-sm-4">
             <p class="text-center">Weslaco, TX 78596</p>
         </div>
     </div>
 </body>
 
-<footer style="background-color: black;" class="text-center footer-col">
-	
-	<div class="row">
-	<p style="color: silver;" class="col-xs-6 text-center">Contact Us
-	<br>
-	Phone: <a href="tel:9566831444">(956)683-1444</a><br>
-	Email: <a href="mailto:cazaresdriving@sbcglobal.net">cazaresdriving@sbcglobal.net</a>
-	</p>
-	<p style="color: silver;" class="col-xs-6 text-center">Quick Links
-	<br>
-	<a style="color: silver;" href="https://www.myeform3.net/cazares/Admin/Login.aspx">Staff Login</a>
-	<br>
-	<span>
-	<a style="color: silver;" href="https://www.facebook.com/pages/Cazares-Driving-School/118500358255059">Visit Us on Facebook</a>
-	<span style="font-size:25px; color: #3b5998" class="fa fa-facebook-official"></span>
-	</div>
-	<p style="color: tomato;"> &copy; cazaresdriving 2017</p>
-	<p style="color: silver">lic# c1594 (a)(b)(c)(d)</p>
-	</span>
-	</p>
-	</div>
+<footer style="background-color: black;" class="text-center footer-col row">
+    
+    <p style="color: silver;" class="col-xs-6 text-center">Contact Us
+    <br>
+    Phone: <a href="tel:9566831444">(956)683-1444</a><br>
+    Email: <a href="mailto:cazaresdriving@sbcglobal.net">cazaresdriving@sbcglobal.net</a>
+    </p>
+    <p style="color: silver;" class="col-xs-6 text-center">Quick Links
+    <br>
+    <a style="color: silver;" href="https://www.myeform3.net/cazares/Admin/Login.aspx">Staff Login</a>
+    <br>
+    <span>
+    <a style="color: silver;" href="https://www.facebook.com/pages/Cazares-Driving-School/118500358255059">Visit Us on Facebook</a>
+    <span style="font-size:25px; color: #3b5998;" class="fa fa-facebook-official"></span>
+
+    <p class="text-center" style="color: tomato"> &copy; cazaresdriving 2017</p>
+    <p class="text-center" style="color: silver">lic# c1594 (a)(b)(c)(d)</p>
+    </span>
+    </p>
 </footer>

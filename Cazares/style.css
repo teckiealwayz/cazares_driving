@@ -91,3 +91,108 @@
     height: 80px;
   }
 }
+
+#bg_panel {
+  background-color: hsla(180, 100%, 50%, 0.6);
+}
+
+#main_pic {
+  border-style: solid;
+  border-width: 2px;
+  border-color: orange;
+}
+
+.sm_pic {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  box-shadow: 8px 8px 12px #aaa;
+  width: 275px;
+  height: auto;
+}
+
+.lg_pic {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  box-shadow: 8px 8px 12px #aaa;
+  width: 450px;
+  height: auto;
+}
+
+.dropdown-menu {
+  padding: 5px !important;
+}
+
+/*.dropdown-toggle {
+  background-color: orange !important;
+}*/
+
+.jumbotron {
+  margin-top: 5px;
+  min-height: 400px;
+  background-image: url("BROCHURE_COVER_PIC.jpg");
+  background-size: cover;
+  color: white;
+}
+
+ @media only screen and (min-width: 1025px) {
+   /* Add your custom styles here for Desktop */
+   #title_say {font-size: 75px !important;}
+   /*#flash_img { width: 1400px !important;}*/
+   #sign_up {
+    position: absolute;
+    top: 475px;
+    left: 45px;
+   }
+
+   #language {
+    position: absolute;
+    top: 475px;
+    left: 165px;
+   }
+ }
+ @media only screen and (max-width: 1024px) {
+   /* Add your custom styles here for Tablet */
+   #sign_up {
+    position: absolute;
+    top: 275px;
+    left: 25px;
+   }
+
+   #language {
+    position: absolute;
+    top: 275px;
+    left: 145px;
+   }
+ }
+ @media only screen and (max-width: 640px) {
+   /* Add your custom styles here for Mobile */
+   #title_say {font-size: 20px !important;}
+      #sign_up {
+    position: absolute;
+    top: 210px;
+    left: 15px;
+   }
+
+   #language {
+    position: absolute;
+    top: 210px;
+    left: 135px;
+   }
+ }
+ @media only screen and (max-width: 480px) {
+   /* Add your custom styles here for smaller Mobile */
+   #title_say {font-size: 20px !important;}
+      #sign_up {
+    position: absolute;
+    top: 210px;
+    left: 15px;
+   }
+
+   #language {
+    position: absolute;
+    top: 210px;
+    left: 135px;
+   }
+ }
