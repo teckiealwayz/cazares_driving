@@ -1,0 +1,198 @@
+#main_body {
+	background-image: url("road.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+#loader {
+/*  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;*/
+/*  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;*/
+}
+
+/*@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}*/
+
+/* Add animation to "page content" */
+
+#pic.hide-opacity {
+	opacity: 0;
+}
+
+.fade-out {
+	animation: fadeOut 3s;
+}
+
+@keyframes fadeOut {
+	from{opacity: 1;}
+	to {opacity: 0;}
+}
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+}
+
+#mainNav {
+  padding: 20px;
+  background-color: orange;
+}
+
+#logo_nav {
+  position:absolute;
+  top: 5px;
+  left: 15px;
+  width: 225px;
+  height: auto;
+  size: 100%;
+}
+
+#hello {
+  background-color: black;
+}
+
+@media (max-width: 500px) {
+  .navbar-brand {
+    height: 80px;
+  }
+}
+
+#bg_panel {
+  background-color: hsla(180, 100%, 50%, 0.6);
+}
+
+#main_pic {
+  border-style: solid;
+  border-width: 2px;
+  border-color: orange;
+}
+
+.sm_pic {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  box-shadow: 8px 8px 12px #aaa;
+  width: 275px;
+  height: auto;
+}
+
+.lg_pic {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  box-shadow: 8px 8px 12px #aaa;
+  width: 450px;
+  height: auto;
+}
+
+.dropdown-menu {
+  padding: 5px !important;
+}
+
+/*.dropdown-toggle {
+  background-color: orange !important;
+}*/
+
+.jumbotron {
+  margin-top: 5px;
+  min-height: 400px;
+  background-image: url("BROCHURE_COVER_PIC.jpg");
+  background-size: cover;
+  color: white;
+}
+
+ @media only screen and (min-width: 1025px) {
+   /* Add your custom styles here for Desktop */
+   #title_say {font-size: 75px !important;}
+   /*#flash_img { width: 1400px !important;}*/
+   #sign_up {
+    position: absolute;
+    top: 550px;
+    left: 45px;
+   }
+
+   #language {
+    position: absolute;
+    top: 550px;
+    left: 185px;
+   }
+ }
+ @media only screen and (max-width: 1024px) {
+   /* Add your custom styles here for Tablet */
+   #sign_up {
+    position: absolute;
+    top: 275px;
+    left: 25px;
+   }
+
+   #language {
+    position: absolute;
+    top: 275px;
+    left: 145px;
+   }
+ }
+ @media only screen and (max-width: 640px) {
+   /* Add your custom styles here for Mobile */
+   #title_say {font-size: 20px !important;}
+      #sign_up {
+    position: absolute;
+    top: 210px;
+    left: 15px;
+   }
+
+   #language {
+    position: absolute;
+    top: 210px;
+    left: 135px;
+   }
+ }
+ @media only screen and (max-width: 480px) {
+   /* Add your custom styles here for smaller Mobile */
+   #title_say {font-size: 20px !important;}
+      #sign_up {
+    position: absolute;
+    top: 210px;
+    left: 15px;
+   }
+
+   #language {
+    position: absolute;
+    top: 210px;
+    left: 135px;
+   }
+ }

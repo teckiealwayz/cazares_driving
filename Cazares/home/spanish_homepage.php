@@ -1,7 +1,7 @@
 <html>
 <head>
 
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="spanish_style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -45,7 +45,7 @@
                 <ul class="nav navbar-nav navbar-right">
                 	<!-- drop down for courses -->
                     <li class="nav-item dropdown">
-                        <a style="color: black;" class="dropdown-toggle" data-toggle="dropdown" href="#">Courses<span class="caret"></span></a>
+                        <a style="color: black;" class="dropdown-toggle" data-toggle="dropdown" href="#">Cursos<span class="caret"></span></a>
                         <div class="dropdown-menu">
                         	<a style="color: black;" class="dropdown-item" href="info/teen_driving.php">Teen Driver Education</a>
                         	<div class="dropdown-divider"></div>
@@ -84,10 +84,10 @@
 <br><br><br><br>
 <div class="row container-fluid">
 	<img style="width: 1920px; height: auto; position: relative;" class="img-responsive center-block" src="main_page.png">
-	<h1 id="title_say" style="position: absolute; top: 125px; left: 25px; color: tomato; text-shadow: 2px 1px black;" class="col-md-4 col-xs-6 text-left"><strong>Take Your Driving Test With Us!</strong></h1>
-	<button id="sign_up" class="btn btn-primary text-center">Sign Up Now</button>
+	<h1 id="title_say" style="position: absolute; top: 125px; left: 25px; color: tomato; text-shadow: 2px 1px black;" class="col-md-4 col-xs-6 text-left"><strong>¡Toma el Examen de Conducción con nosotros!</strong></h1>
+	<button id="sign_up" class="btn btn-primary text-center">Regístrate ahora</button>
 	<form action="index.php" method="post" role="form" data-toggle="validator">
-		<button id="language" type="submit" name="spanish" class="btn btn-primary text-center">Español</button>
+		<button id="language" type="submit" name="english" class="btn btn-primary text-center">English</button>
 	</form>
 </div>
 
@@ -113,7 +113,7 @@
 		<img class="img-responsive center-block sm_pic" src="TEEN_DRIVER_PIC.jpg">
 		<br>
 		<p>Courses for ages 15-17 are held Monday - Saturday(16 days of classroom training /2 hours per day). Depending on space availability,students...
-	<br><a style="background-color: tomato;" href="https://tds.ms/OE/Customer/studentTeen?companyId=JCUHxLO2Nr8&Param=FTP" type="button" class="btn btn-danger" target="_blank">Register Today</a>
+	<br><a style="background-color: tomato;" href="https://www.myeform3.net/cazares/student/studentwebsignupTeen.aspx?Param=FTP" type="button" class="btn btn-danger" target="_blank">Register Today</a>
 	</p>
 </div>
 </div>
@@ -157,22 +157,6 @@
 		</div>
 	</div>
 </div>
-
-<div class="row">
-	<div class="panel panel-default col-sm-6 text-center">
-	<div style="padding: 32px;" class="panel-body">
-		<h1><a href="#" type="button" class="btn btn-info btn-sm">info</a> Driving Tests
-		</h1>
-		<img class="img-responsive center-block sm_pic" src="DRIVING_TEST_PIC.jpg">
-		<br>
-			<p>Drive Testing for 16-24 year old
-			<br><a style="background-color: tomato;" href="#" type="button" class="btn btn-danger" target="_blank">Register Today</a>
-			</p>
-	</div>
-</div>
-</div>
-
-
 <br><br><br><br><br><br>
 
 <footer style="background-color: black;" class="text-center footer-col row">

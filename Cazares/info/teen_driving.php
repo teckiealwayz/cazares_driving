@@ -73,7 +73,7 @@
 <div class="row">
 <div class="col-sm-6 col-sm-offset-3">
   <div class="panel panel-default">
-    <h2 class="text-center">Fast Track Teen Driver Education Course ($325.00)<br><span style="color: red;">FALL SPECIAL ($300)</span></h2>
+    <h2 id="teen" class="text-center">Fast Track Teen Driver Education Course ($325.00)<br><span style="color: red;">FALL SPECIAL ($300)</span></h2>
     <img class="img-responsive center-block lg_pic" src="../TEEN_DRIVER_PIC.jpg">
 
 <p style="padding: 10px;">Courses for ages 14-17 are held Monday - Saturday (16 days of classroom training /2 hours per day). Depending on space availability, students may enroll up until the third day of class but must be present on the third day.</p>

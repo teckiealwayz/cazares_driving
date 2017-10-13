@@ -10,18 +10,19 @@ function showPage() {
   document.getElementById("pic").style.display = "none";
 }
 
-$(function() {
-	$("#language").click(function(e) {
-		if ($(this).text() == "Español")
-		{
-			$(this).text("English");
-			document.getElementById("title_say").innerHTML = "¡Toma el Examen de Conducción con nosotros!";
-		}
-		else
-		{
-			$(this).text("Español");
-			document.getElementById("title_say").innerHTML = "Take your Driving Test with us!";
-		}
-	});
-	});
+// $(function() {
+// 	$("#language").click(function(e) {
+// 		if ($(this).text() == "Español")
+// 		{
+// 			$(this).text("English");
+// 			document.getElementById("title_say").innerHTML = "¡Toma el Examen de Conducción con nosotros!";
+// 			document.getElementById("teen").innerHTML = "Hello";
+// 		}
+// 		else
+// 		{
+// 			$(this).text("Español");
+// 			document.getElementById("title_say").innerHTML = "Take your Driving Test with us!";
+// 		}
+// 	});
+// 	});
 
